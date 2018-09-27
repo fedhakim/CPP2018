@@ -29,13 +29,13 @@ switch(number){
 	}
 
 if (number < 0){
-	cout << "РћС€РёР±РєР° С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ 0" << endl;
+	cout << "Ошибка! Степень меньше 0" << endl;
 }
     if(power!=realPower){
-		cout << "РћС€РёР±РєР° " << power << "РќРµ СЂР°РІРЅРѕ " << realPower << endl;
+		cout << "Ошибка " << power << "не равняется " << realPower << endl;
 	}
 	else{
-		cout << "РћС€РёР±РѕРє РЅРµ РѕР±РЅР°СЂСѓР¶РµРЅРѕ" << endl;
+		cout << "Ошибок не обнаружено" << endl;
     }
 }
 
