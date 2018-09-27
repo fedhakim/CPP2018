@@ -1,0 +1,1 @@
+script: g++ main.cpp -o check
